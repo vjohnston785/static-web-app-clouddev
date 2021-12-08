@@ -2,10 +2,9 @@
 <html lang="en" ng-app="Dashboard">
   <body>
     <script>
-      (async function() {
-          const { text } = await( await fetch(`/api/message`)).json();
-          document.querySelector('#name').textContent = text;
-      }())
+      fetch('api/message')
+        .then(response => response.text())
+        .then(data => console.log(data));
       </script>
   </body>
   <form action="action_page.php" method="post">

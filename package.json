@@ -1,0 +1,26 @@
+{
+  "name": "static-web-app-clouddev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "npm-run-parallel": "^0.6.0"
+  },
+  "scripts": {
+    "start": "run-p dev:api dev:server",
+    "dev:api": "npm run start --prefix api",
+    "dev:server": "npx live-server --proxy=/api:http://127.0.0.1:7071/api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjohnston785/static-web-app-clouddev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vjohnston785/static-web-app-clouddev/issues"
+  },
+  "homepage": "https://github.com/vjohnston785/static-web-app-clouddev#readme"
+}
