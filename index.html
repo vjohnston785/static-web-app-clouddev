@@ -1,8 +1,13 @@
 <!doctype html>
 <html lang="en" ng-app="Dashboard">
-  <script>
-    fetch('/api/HelloWorld').then(response => response.text()).then(data => console.log(data));
-  </script>
+  <body>
+    <script>
+      (async function() {
+          const { text } = await( await fetch(`/api/message`)).json();
+          document.querySelector('#name').textContent = text;
+      }())
+      </script>
+  </body>
   <form action="action_page.php" method="post">
     <div class="container">
       <label for="uname"><b>Username</b></label>
