@@ -3,7 +3,7 @@ IUPS = "https://prod-27.northcentralus.logic.azure.com:443/workflows/24c87126ada
 RAI = "https://prod-76.eastus.logic.azure.com:443/workflows/9d16a6c9a85743a0bad67d116c9e6d77/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=9KtrwM0lDcN5EB2jpj87OOiZD0UAVSm-v0EoL2kqK0M";
 allcomments = "https://prod-17.eastus.logic.azure.com:443/workflows/51ad26c780dd4d6580edcf01bbc94ba2/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=6bxgeu6HeVNBQY5Uj6ILAXW698plLbcHk18OwQem4DM";
 createComments = "https://prod-64.eastus.logic.azure.com:443/workflows/8d6b756c70714e97b7ac3818ead90416/triggers/manual/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=BeBLILEK9K-jQq8m5lXdxWowGviI3qZ5XwXWMmrcCM4";
-BLOB_ACCOUNT = "https://cosmosdbcw.blob.core.windows.net";
+BLOB_ACCOUNT = "https://blobstorageimagescw.blob.core.windows.net";
 
 
 //Handlers for button clicks
