@@ -1,7 +1,6 @@
 {
   "name": "static-web-app-clouddev",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/vjohnston785/static-web-app-clouddev/issues"
   },
-  "homepage": "https://github.com/vjohnston785/static-web-app-clouddev#readme"
+  "homepage": "https://github.com/vjohnston785/static-web-app-clouddev#readme",
+  "description": ""
 }
