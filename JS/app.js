@@ -102,7 +102,8 @@ function getImages() {
 			items.push("<hr />");
 			items.push("<img src='" + BLOB_ACCOUNT + val["filePath"] + "' width='400'/> <br />")
 			items.push("File : " + val["fileName"] + "<br />");
-			items.push("Uploaded by: " + val["userName"] + " (comments: " + val["comments"] + ")<br />");
+			items.push("Uploaded by: " + val["userName"] + "<br />");
+			items.push("Comments " + val["comments"] + "<br />");
 			items.push("<hr />");
 		});
 		//Clear the assetlist div
